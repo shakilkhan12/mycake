@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+
+            <title>
+                {% block title %}{% endblock %}
+            </title>
+        {% endblock %}
+    </head>
+    <body>
+        <div style="width:100%;padding: 20px;background:orange;"> {% block siteContent %}{% endblock %}
+            </div>
+            <div id="footer">
+                {% block footer %}
+                    &copy; Copyright 2011 by
+                    <a href="http://domain.invalid/">you</a>.
+                {% endblock %}
+            </div>
+        </body>
+    </html>

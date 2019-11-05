@@ -1,0 +1,12 @@
+{% extends "index.twig" %}
+{% block title %}
+    My Title
+{% endblock %}
+{% block siteContent %}
+    {% for name in users %}
+        {{ name.name }}
+        <br>
+        {{ name.email }}
+        <br>
+    {% endfor %}
+{% endblock %}
