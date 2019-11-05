@@ -33,7 +33,5 @@
 		"vlucas/phpdotenv": "^3.6",
 		"ramsey/uuid": "^3.8",
 		"cr/hashcli": "dev-master"
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	}
 }
